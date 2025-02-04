@@ -13,6 +13,7 @@ table, th, td {
 th, td {
     padding: 10px;
     text-align: left;
+<<<<<<< HEAD
 }
 #desc, #preu, #quantitat {
     display: inline-block;
@@ -25,3 +26,6 @@ th, td {
     display: flex;
     justify-content: flex-end;
 }
+=======
+}
+>>>>>>> a1fa9760604ef873e39f88905bdc964ac3b61829
