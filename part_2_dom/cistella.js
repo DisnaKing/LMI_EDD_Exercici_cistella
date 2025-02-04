@@ -42,11 +42,12 @@ class Cistella {
     }
     actualitzaTotal(){ //TODO  Actualitza el total de la cistella
         let total=0;
-        resultado = document.getElementById("total");
+        let resultado = document.getElementById("total");
         resultado.innerHTML = ''; // elimina el html existent
+        total=0;
         for (let producte of this.productes){
             total += producte.calculaSubtotal();
         }
-        resultado.innerHTML+=total+"€";
+        resultado.insertAdjacentHTML('beforeend',total+"€");
     }
 }

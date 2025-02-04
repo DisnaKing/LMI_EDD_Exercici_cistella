@@ -9,13 +9,22 @@
 <body>
     <h1>🎄 Cistella de Nadal 🎄</h1>
     <form id="formulari">
-        <label for="desc">Descripció del producte:</label>
-        <input type="text" id="desc" required>
-        <label for="preu">Preu (€):</label>
-        <input type="number" id="preu" step="0.01" required>
-        <label for="quantitat">Quantitat:</label>
-        <input type="number" id="quantitat" required>
-        <button type="button" id="afegir">Afig producte</button>
+        <div>
+            <div  class="datos" id="divDesc">
+                <label for="desc">Descripció del producte:</label>
+                <input type="text" id="desc" required>
+            </div><br>
+            <div id="divPreu" class="datos">
+                <label for="preu">Preu (€):</label>
+                <input type="number" id="preu" step="0.01" required>                
+            </div><br>
+            <div id="divQuant" class="datos">
+                <div id="divQuantitat"><label for="quantitat">Quantitat:</label></div>
+                <input type="number" id="quantitat" required>
+            </div>
+            <br>
+            <button type="button" id="afegir">Afig producte</button>
+        </div>
     </form>
     <table id="taula">
         <thead>

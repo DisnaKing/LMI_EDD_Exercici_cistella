@@ -14,3 +14,14 @@ th, td {
     padding: 10px;
     text-align: left;
 }
+#desc, #preu, #quantitat {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.datos {
+    display: flex;
+    justify-content: flex-end;
+}
